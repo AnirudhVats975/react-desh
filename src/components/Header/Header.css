@@ -1,0 +1,95 @@
+.headerWrapper{
+    padding: 10px 15px;
+    display: flex;
+}
+
+.HeaderLeftHeading{
+    font-size: 20px;
+}
+
+.headerLeft{
+    flex: 1;
+}
+
+.headerList{
+    display: flex;
+    margin-top: 40px;
+}
+
+.headerList li {
+    list-style: none;
+    margin-left: 11px;
+}
+
+.headerList li:first-child{
+    margin-left: 0;
+}
+
+.headerList li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #003366;
+}
+
+.headerList li a:last-child{
+    color: #3399ff;
+}
+
+
+
+.headerList li span i{
+    font-size: 10px;
+}
+
+.HeaderRight{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.topNav{
+    display: flex;
+    
+}
+
+.topNav li {
+    margin-left: 30px;
+    list-style: none;
+    font-size: 20px;
+    color: var(--primary-blue);
+}
+
+
+
+.topNav li span{
+    margin-left: 5px;
+}
+
+.topNav li a{
+    text-decoration: none;
+}
+
+.bottomNav{
+    margin-top: 60px;
+    display: flex;
+}
+
+.bottomNav li{
+    margin-left: 30px;
+    list-style: none;
+}
+
+.bottomNav li a{
+    text-decoration: none;
+}
+
+.bottomNav li  a i{
+    margin-right: 5px;
+}
+
+.bottomNav li  a{
+    color: var(--primary-blue);
+    font-size: 18px;
+}

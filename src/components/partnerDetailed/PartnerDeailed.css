@@ -1,0 +1,26 @@
+.partnerDeailed{
+    border: 0.1px solid var(--primary-blue);
+    width: 65%;
+    margin-top: 30px;
+    position: relative;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.partnerDeailed h5{
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    padding-right: 25px;
+    padding-left: 2px;
+    color: var(--primary-blue);
+}
+.partnerDeailed p{
+    font-size: 13px;
+    color: var(--primary-blue);
+
+}

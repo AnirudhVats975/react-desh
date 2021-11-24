@@ -1,0 +1,31 @@
+.saleInfo{
+    border: .5px solid #e6f2ff;
+    width: 98%;
+    margin: 0 auto;
+    padding: 10px ;
+}
+
+.saleInfoHeading h3{
+    font-size: 19px;
+    color: var(--primary-blue);
+    background-color: #cce6ff;
+    padding-left: 15px;
+    
+}
+
+.saleInfoContent{
+    display: flex;
+    padding: 0 10px;
+}
+
+.saleInfoContentLeft{
+    flex: 1;
+}
+
+.saleInfoContentCenter{
+    flex: 1;
+}
+
+.saleInfoContentRight{
+    flex: 1;
+}

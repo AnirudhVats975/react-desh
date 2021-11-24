@@ -1,0 +1,175 @@
+.partnerList{
+    padding: 20px 0px;
+    margin-top: 20px;
+     width: 100%;
+     width: 98%;
+     margin: 20px auto;
+}
+
+.partnerListLinks ul{
+    display: flex;
+    padding: 10px ;
+}
+
+.partnerListLinks ul li{
+    list-style: none;
+    margin-left: 30px;
+
+}
+
+.partnerListLinks ul li:first-child{
+  border-bottom:1px solid black ;
+}
+
+.partnerListLinks ul li:first-child{
+    margin-left: 0;
+}
+
+.partnerListLinks ul li a{
+    text-decoration: none;
+    color: var(--primary-blue);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.partnerListInfo{
+    border: .5px solid #e6f2ff;
+}
+
+
+
+.col-10{
+    flex: 1;
+    width: 100%;
+}
+
+.col-10:nth-child(2){
+    flex: 2;
+}
+
+.col-10:nth-child(3){
+    flex: 2;
+}
+
+.col-10:nth-child(5){
+    flex: 2;
+}
+
+.col-10:nth-child(6){
+    flex: 2;
+}
+.col-10:nth-child(7){
+    flex: 2;
+}
+
+.col-10:nth-child(8){
+    flex: 2;
+}
+
+
+.partnerListInfo .partnerListInfoHeading{
+    display: flex;
+    flex-direction: row;
+    background-color:  #cce6ff;
+    padding: 10px 20px;  
+    margin-top: 5px; 
+}
+
+.partnerListInfo .partnerListInfoHeading li{
+    font-size: 14.5px;
+    font-weight: 500;
+    color: var(--primary-blue);
+    list-style: none;
+}
+
+.partnerTab{
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.partnerListInfoDet{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;  
+    margin-top: 5px; 
+}
+
+.partnerListInfoDet li{
+    font-size: 13.5px;
+    font-weight: 400;
+    color: var(--primary-blue);
+    list-style: none;
+}
+
+.partnerListInfoFotter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color:  #cce6ff;
+}
+
+.partnerListFooterLeft p{
+  font-size: 12.5px;
+  color: var(--primary-blue);
+  font-weight: 500;
+}
+
+.partnerListFooterRight{
+    display: flex;
+}
+
+.pages{
+    margin-right: 20px;
+
+}
+
+.pages p{
+    font-size: 12.5px;
+  color: var(--primary-blue);
+  font-weight: 500; 
+}
+
+.pages p span{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.pageInfo{
+    margin-right: 30px;
+}
+
+.pageInfo p{
+    font-size: 12.5px;
+    color: var(--primary-blue);
+    font-weight: 500; 
+}
+
+.pageslider{
+    margin-right: 20px;
+}
+
+.pageslider span{
+    font-size: 12.5px;
+    color: var(--primary-blue);
+    font-weight: 500; 
+    cursor: pointer;
+}
+
+.pageslider span:first-child{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
